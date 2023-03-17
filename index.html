@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Página web de osos</title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <!--Esto es un comentario, las siguientes etiquetas son para encabezados-->
+        <h1>Página de Mascotas</h1>
+        <h2>Esta es una página de Osos</h2>
+        <h3>Hecha por: Gloria Domínguez</h3>
+    <!--Agregar imagenes desde internet-->
+    <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/01-polar-bear-nationalgeographic_1155565.jpg?w=1600&h=900"> <!--copiar dirección de imagen-->
+    <br> <!--Separar imagenes-->
+    <!--Agregar imagen desde computadora-->
+    <img src="imagenes/Bears.png">
+
+    <!--Listas ordenadas y desordenadas-->
+        <h3>Lista de Osos</h3>
+        <p>3 cosas que los osos <strong>aman</strong></p>
+
+    <!--Lista ordenada-->
+    <ol> <!--Ordered list-->
+        <li>Dormir</li>
+        <li>Salir a pasear</li>
+        <li>Jugar</li>
+    </ol>
+
+    <!--Lista desordenada-->
+    <p>3 cosas que los osos <strong>odian</strong></p>
+    <ul> <!--unordered list-->
+        <li>Bañarse</li>
+        <li>Estar solo</li>
+        <li>No comer</li>
+    </ul>
+    <!--Crear enlaces externos-->
+
+    <p>Si quieres ver más fotos de osos <a href="https://www.google.com/search?q=osos&sxsrf=AJOqlzUgG-J7NBBAckqo1PF6fA2w5uB-5g:1678945480602&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjXld6n39_9AhUClmoFHU7WDJsQ_AUoAXoECAEQAw&biw=1249&bih=561&dpr=1.54#imgrc=E0lHqCa-4VOSDM&imgdii=0WYMfylmA8X2uM" target="_blank">da click aquí</a></p> <!--ancor, anclar=a-->
+
+<!--Formulario con botones de radio-->
+<form>
+    <p>¿Tu oso es cachorro o es adulto?</p>
+    <label>
+        <input id="cachorro" type="radio"  value="cachorro" name="cachorro-adulto" checked> Cachorro    <!--name del formulario debe ser igual para cada uno-->
+    </label>
+    <br> <!--breack, romper, separar respuestas-->
+    <label>
+        <input id="adulto" type="radio"  value="adulto" name="cachorro-adulto"> Adulto
+    </label>
+
+<!--formulario con casillas de verificación-->
+    <p>¿Cómo es el caracter de tu oso?</p>
+        <label>
+         <input id="perezoso" type="checkbox" value="perezoso" name="personalidad" ckecked> Perezoso
+        </label>
+        <br>
+        <label>
+            <input id="energico" type="checkbox" value="energico" name="personalidad"> Enérgico
+        </label>
+        <br>
+        <label>
+            <input id="jugueton" type="checkbox" value="jugueton" name="personalidad"> Juguetón
+        </label>
+</form>
+<footer>
+    <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="-blank">Tecnolochicas PRO</a></small></p>
+</footer>
+<!--p=parrafo-->
+    </body>
+
+</html>

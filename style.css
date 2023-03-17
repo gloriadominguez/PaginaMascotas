@@ -1,0 +1,30 @@
+body{
+    /*poner color a letras*/
+    color: #5d2852;
+    /*poner color al fondo*/
+    background-color: #cfc7a5;
+    font-family: 'Roboto Condensed', sans-serif; /*Colocar fuente desde google fonts, copiar 1.html 2. css*/
+}
+
+h1{
+    color: #2d1b47;
+    font-size: 60px;
+
+}
+
+h3{
+    color:#758a5b;
+}
+
+img{
+    width: 400px; /*Ancho de imagen*/
+    height: 250px; /*Altura*/
+    padding: 20px; /*Separación de imagenes*/
+    margin: 20px; /*margen*/
+}
+
+footer{
+    background-color: #b3c998;
+    color: black;
+    padding: 20px;
+}
